@@ -17,7 +17,7 @@ public class CartController {
 
     private final CartService cartService;
 
-    @GetMapping("")
+    @GetMapping
     public ResponseEntity<String> getCarts(){
         try{
             log.info("===========>>>> Getting Carts <<<<============");
