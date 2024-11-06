@@ -10,7 +10,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class ConvertJavaObjectToJsonExample {
-
     private static final ObjectMapper MAPPER = new ObjectMapper();
 
     public static void main(String[] args) throws IOException {
