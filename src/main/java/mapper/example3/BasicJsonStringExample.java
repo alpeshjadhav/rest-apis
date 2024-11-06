@@ -8,7 +8,7 @@ public class BasicJsonStringExample {
     public static void main(String[] args) {
         try {
             ObjectMapper objectMapper = new ObjectMapper();
-            String json = "{\"name\": \"Mkyong\", \"age\": 20}";
+            String json = "{\"name\": \"zaid\", \"age\": 20}";
 
             JsonNode node = objectMapper.readTree(json);
             System.out.println(node);

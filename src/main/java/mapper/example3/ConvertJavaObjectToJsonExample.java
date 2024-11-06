@@ -27,7 +27,7 @@ public class ConvertJavaObjectToJsonExample {
     private static Staff createStaff() {
         Staff staff = new Staff();
 
-        staff.setName("mkyong");
+        staff.setName("zaid");
         staff.setAge(42);
         staff.setPosition(new String[]{"Founder", "CTO", "Writer", "Minimalists"});
 

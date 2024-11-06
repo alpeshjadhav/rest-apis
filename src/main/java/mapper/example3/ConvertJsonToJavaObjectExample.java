@@ -13,7 +13,7 @@ public class ConvertJsonToJavaObjectExample {
         String staff2PrettyPrint1 = MAPPER.writerWithDefaultPrettyPrinter().writeValueAsString(staff1);
         System.out.println(staff2PrettyPrint1);
 
-        String jsonInString = "{\"name\":\"mkyong\",\"age\":37,\"skills\":[\"java\",\"python\"]}";
+        String jsonInString = "{\"name\":\"zaid\",\"age\":37,\"skills\":[\"java\",\"python\"]}";
         Staff staff2 = MAPPER.readValue(jsonInString, Staff.class);
         String staff2PrettyPrint2 = MAPPER.writerWithDefaultPrettyPrinter().writeValueAsString(staff2);
         System.out.println(staff2PrettyPrint2);
